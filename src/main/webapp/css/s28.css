@@ -1,17 +1,18 @@
 body {
-    background-color: gray;
+    background-color: #88c4ff;
 }
 
 p {
-    font-family: fantasy;
+    font-family: papyrus;
 }
 
 #special {
-    color: violet;
+    color: #ff80c0;;
 }
 
-h1, h2, h3 {
-    color: yellow;
+h1, h3, h5 {
+    color: #ff80c0;
+    font-family:papyrus;
 }
 
 .myClass {
@@ -27,8 +28,8 @@ p.myClass {
 }
 
 #blockId {
-    border: 3px solid #ff8000;
-    background-color: #ffff80;
+    border: 3px solid #0080ff; /* da 0 a 255, la gamma di colori: ff sta per 16x15 in base 16 */
+    background-color: #73e9fd;
 }
 
 .boldCls {
@@ -42,3 +43,5 @@ p.myClass {
 .upperCls {
     text-transform: uppercase;
 }
+
+
